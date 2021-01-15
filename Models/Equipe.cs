@@ -50,6 +50,7 @@ namespace Eplayers_AspNetCore.Models
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => int.Parse(x.Split(";")[0]) == id);
+            RewriteCSV(PATH, linhas);
         }
     }
 }

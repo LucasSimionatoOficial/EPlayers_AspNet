@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Eplayers_AspNetCore.Controllers
 {
-    [Route("Equipes")]
+    [Route("Equipe")]
     public class EquipeController: Controller
     {
         Equipe equipeModel = new Equipe();
@@ -25,7 +25,7 @@ namespace Eplayers_AspNetCore.Controllers
             if(form.Files.Count>0)
             {
                 var file = form.Files[0];
-                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipe");
 
                 if(!Directory.Exists(folder))
                 {
@@ -48,14 +48,14 @@ namespace Eplayers_AspNetCore.Controllers
 
             equipeModel.Create(novaEquipe);
             ViewBag.Equipes = equipeModel.ReadAll();
-            return LocalRedirect("~/Equipes");
+            return LocalRedirect("~/Equipe");
         }
-        [Route("{id}")]
+        [Route("Equipe/{id}")]
         public IActionResult Excluir(int id)
         {
             equipeModel.Delete(id);
             ViewBag.Equipes = equipeModel.ReadAll();
-            return LocalRedirect("~/Equipes");
+            return LocalRedirect("~/Equipe");
         }
     }
 }
