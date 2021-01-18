@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Eplayers_AspNetCore.csproj",
+  "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Eplayers_AspNetCore.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,38 +15603,48 @@
   "RootNamespace": "Eplayers_AspNetCore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Jogador\\index.cshtml",
+      "TargetPath": "Views\\Jogador\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\Equipe\\index.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Equipe\\index.cshtml",
       "TargetPath": "Views\\Equipe\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Login\\index.cshtml",
+      "TargetPath": "Views\\Login\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\Eplayers_AspNetCore\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\Desenvolvimento web senai\\Sprint 4 - Backend 2 - POO\\EPlayers_AspNet\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
